@@ -40,3 +40,4 @@ if __name__ == '__main__':
     clf = load(str("./saved_model/random_forest.joblib"))
     result = clf.predict(df_test)
     print(f"Predicted Disease: {result}")
+ 
